@@ -1,7 +1,9 @@
 import React from 'react';
 import { ShoppingBag, User, Building, MapPin, CheckCircle, Info } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 export default function CustomLeads() {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-6">
       <div className="max-w-7xl mx-auto">
@@ -51,7 +53,8 @@ export default function CustomLeads() {
                 </div>
               </div>
 
-              <button className="w-full mt-8 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-semibold py-4 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center justify-center gap-2">
+              <button className="w-full mt-8 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-semibold py-4 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center justify-center gap-2"
+              onClick={()=>navigate('/contact')}>
                 <Info className="w-5 h-5" />
                 Get Custom Quote
               </button>

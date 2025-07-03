@@ -120,7 +120,7 @@ const WhyChooseUs = () => {
           <button className="bg-emerald-500 hover:bg-emerald-600 text-white font-semibold 
                            px-8 py-4 rounded-xl text-lg transition-all duration-300 
                            hover:transform hover:-translate-y-1 hover:shadow-lg
-                           active:scale-95">
+                           active:scale-95" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
             Start Your Campaign Today
           </button>
         </div>

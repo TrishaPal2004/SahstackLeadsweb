@@ -43,8 +43,10 @@ function App() {
 
   return (
     <BrowserRouter>
+    
       {isMobile ? (
         <MobileLayout>
+          <Navbar />
           {AppRoutes}
         </MobileLayout>
       ) : (

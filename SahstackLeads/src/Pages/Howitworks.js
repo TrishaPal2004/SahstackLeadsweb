@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { use } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const HowItWorks = () => {
   const steps = [
@@ -21,7 +22,7 @@ const HowItWorks = () => {
       color: 'bg-purple-500'
     }
   ];
-
+ const navigate = useNavigate();
   return (
     <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-20 px-4" id='how-it-works'>
       <div className="max-w-7xl mx-auto">
@@ -81,7 +82,7 @@ const HowItWorks = () => {
           <button className="bg-emerald-500 hover:bg-emerald-600 text-white font-semibold 
                            px-8 py-4 rounded-xl text-lg transition-all duration-300 
                            hover:transform hover:-translate-y-1 hover:shadow-lg
-                           active:scale-95" style={{ boxShadow: '0 4px 20px rgba(250, 250, 250, 0.2)' }}>
+                           active:scale-95" style={{ boxShadow: '0 4px 20px rgba(250, 250, 250, 0.2)' }} onClick={() => navigate('/packages')}>
             Get Started Now
           </button>
         </div>

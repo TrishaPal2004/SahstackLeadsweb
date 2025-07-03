@@ -3,7 +3,7 @@ import { MapPin, Phone, Mail, Clock, Facebook, Twitter, Instagram, Linkedin } fr
 
 export default function Contact() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-6">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-6" >
       <div className="max-w-4xl mx-auto">
         {/* Background decorative elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
