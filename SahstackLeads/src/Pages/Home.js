@@ -33,7 +33,7 @@ const scrollToHowItWorks1 = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900 relative overflow-hidden " style={{ paddingLeft: '22vh',paddingRight: '22vh'}}>
+    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900 relative overflow-hidden " style={{ paddingLeft: '12vh',paddingRight: '22vh'}}>
       {/* Animated background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-10 left-10 w-32 h-32 bg-blue-500 rounded-full opacity-10 animate-pulse"></div>
