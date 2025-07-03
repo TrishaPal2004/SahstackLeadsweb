@@ -51,8 +51,9 @@ function App() {
         </MobileLayout>
       ) : (
         <>
-          <Navbar />
+          
           <DesktopLayout>
+            <Navbar />
             {AppRoutes}
           </DesktopLayout>
         </>

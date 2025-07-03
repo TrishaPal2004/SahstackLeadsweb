@@ -197,7 +197,7 @@ const Paymentpage = () => {
 
   if (isSubmitted) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-600 via-blue-600 to-indigo-800 flex items-center justify-center p-4">
+      <div className="min-h-screen bg-gradient-to-br from-purple-600 via-blue-600 to-indigo-800 flex items-center justify-center p-4" >
         <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-md w-full text-center">
           <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
           <h2 className="text-2xl font-bold text-gray-800 mb-2">Registration Successful!</h2>
@@ -219,7 +219,7 @@ const Paymentpage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-600 via-blue-600 to-indigo-800 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-purple-600 via-blue-600 to-indigo-800 flex items-center justify-center p-4" style={{ paddingTop: '10vh' }}>
       <div className="bg-white rounded-2xl shadow-2xl overflow-hidden max-w-4xl w-full md:flex">
         {/* QR Section */}
         <div className="md:w-1/2 flex flex-col items-center justify-center p-8 bg-gray-50">
