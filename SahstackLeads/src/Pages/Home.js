@@ -54,7 +54,7 @@ const scrollToHowItWorks1 = () => {
             {/* Main Heading */}
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                <span className="text-blue-300">Get 50,000</span>
+                <span className="text-blue-300">Get 25,000</span>
                 <br />
                 <span className="text-green-400">Indian Leads</span>
                 <br />
