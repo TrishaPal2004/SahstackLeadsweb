@@ -105,7 +105,7 @@ const Packs = () => {
       title: 'India Leads',
       price1: '₹1299',
       price: '₹19',
-      leads: '50,000',
+      leads: '25,000',
       bestDeal: true,
       icon: image,
       colorClasses: {
